@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+.billy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+}
+
+.billy {
+    background: url("./billy.jpg");
+    background-size: cover;
+}
+
+#billy-1 {
+    grid-row: span 2;
+    grid-column: span 1;
+}
+
+#billy-2{
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+#billy-4 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+#billy-5 {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.billys-dad {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.billys-div {
+    width: 30vw;
+    height: 30vw;
+    background:  url(./billy.jpg);
+    background-size: cover;
+}
+
+.billys-div div {
+    background: linear-gradient(to top, black, rgba(0,0,0,0.4));
+    width: 30vw;
+    height: 30vw;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.billys-div div:hover {
+    opacity: 1;
+}
