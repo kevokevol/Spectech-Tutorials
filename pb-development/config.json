@@ -1,0 +1,23 @@
+{
+  "id" : "react project",
+  "name": "react project",
+  "description": "",
+  "abstract": false,
+  "deprecated": false,
+  "customFields": [
+
+  ],
+  "renderingConfigs": {
+    "default": {
+      "template": "render.jsp",
+      "displayProperty": {
+        "columns": {
+        },
+        "fullWidth": false,
+        "async": false
+      },
+      "resources": {
+      }
+    }
+  }
+}
