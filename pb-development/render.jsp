@@ -26,7 +26,7 @@
     :root{
       font-size: 16px;
     }
-    :root * {
+    #root * {
       -webkit-box-sizing: content-box;
       box-sizing: content-box;
     }
