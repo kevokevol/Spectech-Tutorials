@@ -15,6 +15,7 @@
         font-family: Whitney;
         src: url(${contextRoot}/resources/fonts/whitney-medium.otf);
     }
+    html,body{max-width: none; overflow-x: visible;}
     body {
       margin: 0;
       padding:0;
