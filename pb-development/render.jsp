@@ -30,6 +30,8 @@
       -webkit-box-sizing: content-box;
       box-sizing: content-box;
     }
+    #main{padding:0;}
+    #bottom{display:none;}
   </style>
 </head>
 
